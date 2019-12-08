@@ -6,5 +6,6 @@ describe('longestSubstring', () => {
     expect(longestSubstring('bbbbb')).toBe(1);
     expect(longestSubstring('pwwkeaw')).toBe(4);
     expect(longestSubstring('abcdefbilxd')).toBe(8);
+    expect(longestSubstring('pewwkew')).toBe(3);
   });
 });

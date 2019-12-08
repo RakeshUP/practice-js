@@ -11,7 +11,9 @@ const longestSubstring = (string) => {
       indexMap[character] = i;
     } else {
       const length = windowLastIndex - windowFirstIndex;
-      windowFirstIndex = indexMap[character] + 1;
+      if (windowFirstIndex <= indexMap[character]) {
+        windowFirstIndex = indexMap[character] + 1;
+      }
       longestSubStr = length > longestSubStr ? length : longestSubStr;
       indexMap[character] = i;
     }
