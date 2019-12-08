@@ -1,0 +1,30 @@
+{
+  "name": "practice-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:RakeshUP/practice-js.git",
+  "author": "RakeshUP <parthiban.rakesh95@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.6",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "jest": "^24.9.0",
+    "lint-staged": "^9.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "!(*.test).js": ["eslint"]
+  }
+}
