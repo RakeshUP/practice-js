@@ -19,5 +19,6 @@ module.exports = {
   rules: {
     "import/prefer-default-export": 0,
     "no-restricted-syntax": 0,
+    "arrow-parens": [2, "as-needed"],
   },
 };
