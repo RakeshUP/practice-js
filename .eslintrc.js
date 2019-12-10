@@ -17,5 +17,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    "import/prefer-default-export": 0,
+    "no-restricted-syntax": 0,
   },
 };
