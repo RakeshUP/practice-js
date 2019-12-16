@@ -5,5 +5,5 @@ script:
   - yarn test
 cache: 
   directories:
-    - node_modules
     - $HOME/.cache/yarn
+    - node_modules
