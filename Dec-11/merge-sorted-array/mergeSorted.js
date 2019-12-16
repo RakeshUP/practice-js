@@ -10,7 +10,6 @@ const mergeSorted = (array1, array2) => {
       array1.splice(index, 0, element);
     }
   });
-  console.log(array1);
   return array1;
 };
 
