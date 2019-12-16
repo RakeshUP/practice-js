@@ -4,7 +4,5 @@ node_js:
 script:
   - yarn test
 cache: 
-  yarn:true
   directories:
     - node_modules
-    - $HOME/.yarn-cache
