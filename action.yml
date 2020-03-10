@@ -1,0 +1,2 @@
+- name: PR gif generator
+  uses: koushikmohan1996/action-pr-gifs@V1.0
